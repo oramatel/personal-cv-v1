@@ -1,31 +1,26 @@
 import React from "react";
 
 const skillsData = [
-  "React",
-  "Next.js",
-  "Tailwind CSS",
-  "TypeScript",
-  "JavaScript",
-  "HTML",
-  "CSS",
-  "Git",
-  "GitHub",
-  "Node.js",
-  "Express",
-  "MongoDB",
-  "PostgreSQL",
-  "MySQL",
-  "Docker",
+  "FortiNet",
+  "Aruba",
+  "HPE",
+  "Cisco",
+  "Meraki",
+  "Juniper",
+  "Open Source Apps",
+  "Azure",
+  "AWS",
+  "CloudFlare",
   "AWS",
   "Python",
-  "FastAPI",
+  "PHP",
   "RESTful APIs",
 ];
 
 function Skills() {
   return (
     <div className="flex flex-col gap-4 w-full">
-      <h1 className="text-2xl font-bold">Skills</h1>
+      <h1 className="text-2xl font-bold">Certifications/Experience</h1>
       <div className="flex flex-wrap gap-2">
         {skillsData.map((skill, index) => (
           <span
