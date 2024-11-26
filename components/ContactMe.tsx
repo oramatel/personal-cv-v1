@@ -12,15 +12,8 @@ function ContactMe() {
           target="_blank"
           className="text-blue-500"
         >
-          direct question on twitter
+          direct question on X
         </Link>{" "}
-        or email me directly at{" "}
-        <Link
-          href="mailto:yatharthverma070@gmail.com"
-          className="text-blue-500"
-        >
-          yatharthverma070@gmail.com
-        </Link>
       </p>
     </div>
   );
