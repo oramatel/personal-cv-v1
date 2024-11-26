@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Yatharth Verma",
-  description: "Yatharth Verma's portfolio",
+  title: "David Oramas",
+  description: "David Oramas's CV",
 };
 
 export default function RootLayout({
